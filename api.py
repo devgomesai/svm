@@ -1,15 +1,24 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
+from fastapi.middleware.cors import CORSMiddleware
 from typing import List, Dict, Any
 import joblib
 import json
 import pandas as pd
 
 
+
 app = FastAPI(
     title="SVM Variant Pathogenicity API",
     version="1.0.0",
     description="FastAPI service for SVM-based variant pathogenicity prediction"
+)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 MODEL_DIR = "models"
