@@ -1,0 +1,11 @@
+{
+  "feature_names": [
+    "chrom_enc",
+    "ref_enc",
+    "alt_enc",
+    "gene_freq",
+    "gene_count",
+    "sfari_score"
+  ],
+  "n_features": 6
+}

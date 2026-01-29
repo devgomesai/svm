@@ -1,0 +1,21 @@
+{
+  "model_name": "svm",
+  "model_type": "SVC",
+  "metrics": {
+    "Model": "SVM (RBF)",
+    "Accuracy": 0.95934780213727,
+    "Precision": 0.9598514326140786,
+    "Recall": 0.9965112008813808,
+    "F1-score": 0.9778378378378378
+  },
+  "feature_names": [
+    "chrom_enc",
+    "ref_enc",
+    "alt_enc",
+    "gene_freq",
+    "gene_count",
+    "sfari_score"
+  ],
+  "n_features": 6,
+  "saved_date": "2026-01-28 17:43:37"
+}

@@ -1,0 +1,21 @@
+{
+  "model_name": "logistic_regression",
+  "model_type": "LogisticRegression",
+  "metrics": {
+    "Model": "Logistic Regression",
+    "Accuracy": 0.9029965847747053,
+    "Precision": 0.9395163721883857,
+    "Recall": 0.9536050924225732,
+    "F1-score": 0.9465083077670787
+  },
+  "feature_names": [
+    "chrom_enc",
+    "ref_enc",
+    "alt_enc",
+    "gene_freq",
+    "gene_count",
+    "sfari_score"
+  ],
+  "n_features": 6,
+  "saved_date": "2026-01-28 17:43:37"
+}
